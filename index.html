@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>STUDENT PROFILE</title>
+
+    <!~~connect css~~>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="screen">
+
+        <!~~ Header ~~>
+        <header>
+            <h1>STUDENT PROFILE</h1>
+        </header>
+
+        <!~~ Student Card ~~>
+        <div class="profile-card">
+
+            <!~~ Profile Picture ~~>
+            <div class="profile-picture">
+                <img src="Pic.png" alt="Student Profile Picture" />
+            </div>
+
+                <!~~ Student Information ~~>
+                <div class="profile-info">
+                    <h2>Student Information</h2>
+                    <p><strong>Name:</strong> Mara C. Banawa</p>
+                    <p><strong>Student ID:</strong> 24-01522</p>
+                    <p><strong>Program:</strong> BS Information Technology</p>
+                    <p><strong>Year Level:</strong> 3rd Year</p>
+                </div>
+
+                <!~~ Skills ~~>
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <li>Time Management</li>
+                    <li>Adaptability</li>
+                    <li>Communication Skills</li>
+                    <li>Organizational Skills</li>
+                </ul>
+
+                <!~~ Academic Grades ~~>
+                <h3>Academic Grades</h3>
+
+                <table>
+                    <thread>
+                        <tr>
+                            <th>Code</th>
+                            <th>Subject</th>
+                            <th>Units</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>IT 101</td>
+                            <td>Computing</td>
+                            <td>3</td>
+                            <td>1.50</td>
+                        </tr>
+                        <tr>
+                            <td>IT 102</td>
+                            <td>Web Dev</td>
+                            <td>3</td>
+                            <td>1.25</td>
+                        </tr>
+                        <tr>
+                            <td>IT 103</td>
+                            <td>Database</td>
+                            <td>3</td>
+                            <td>1.75</td>
+                        </tr>
+                        <tr>
+                            <td>IT 104</td>
+                            <td>Programming</td>
+                            <td>3</td>
+                            <td>1.50</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!~~ Contact Form ~~>
+                <h3>Contact Me</h3>
+
+                <form>
+                    <label for="Name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="Email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="Message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="Submit">Submit</button>
+                </form>
+
+                <!~~ School Website ~~>
+                <h3>School Website</h3>
+                <a href="https://batstateu.edu.ph/" class="School Website">Visit School Website</a>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
